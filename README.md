@@ -1,4 +1,6 @@
-# Elastic stack (ELK) on Docker
+# Elastic stack (ELK+REDIS) on Docker
+
+![alt tag](https://github.com/dionisoliveira/REDIS-ELK/blob/master/redis%2Belk.png)
 
 [![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-7.13.4-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
 [![Build Status](https://github.com/deviantony/docker-elk/workflows/CI/badge.svg?branch=release-7.x)](https://github.com/deviantony/docker-elk/actions?query=workflow%3ACI+branch%3Arelease-7.x)
