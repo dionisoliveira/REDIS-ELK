@@ -21,6 +21,7 @@ Based on the official Docker images from Elastic:
 * [Elasticsearch](https://github.com/elastic/elasticsearch/tree/7.13/distribution/docker)
 * [Logstash](https://github.com/elastic/logstash/tree/7.13/docker)
 * [Kibana](https://github.com/elastic/kibana/tree/7.13/src/dev/build/tasks/os_packages/docker_generator)
+* [Redis](https://github.com/docker-library/redis)
 
 Other available stack variants:
 
@@ -92,6 +93,7 @@ By default, the stack exposes the following ports:
 * 9200: Elasticsearch HTTP
 * 9300: Elasticsearch TCP transport
 * 5601: Kibana
+* 6379: Redis
 
 **:warning: Elasticsearch's [bootstrap checks][booststap-checks] were purposely disabled to facilitate the setup of the
 Elastic stack in development environments. For production setups, we recommend users to set up their host according to
